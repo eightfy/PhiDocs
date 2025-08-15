@@ -1,0 +1,12 @@
+site_name: PhiDoc
+site_url: https://eightfy.github.io/PhiDocs/
+repo_url: https://github.com/eightfy/PhiDocs
+theme:
+  name: material
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
