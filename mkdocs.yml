@@ -3,6 +3,36 @@ site_url: https://eightfy.github.io/PhiDocs/
 repo_url: https://github.com/eightfy/PhiDocs
 theme:
   name: material
+  palette:
+    # 可选配色方案
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: 浅色模式
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 深色模式
+  
+  # 自动根据系统偏好切换
+  prefer_contrast: true
+  
+  # 字体和颜色定制
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+# nav:
+#   - 首页: chphi.md
+#   - 中国哲学史: chphi.md
+#   - 中国哲学真题: chreal.md
+#   - 西方哲学史: wesphi.md
 
 
 markdown_extensions:
